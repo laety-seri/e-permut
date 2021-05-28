@@ -89,6 +89,14 @@ input {
 	width: 100%;
 }
 
+.ville {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
 .container {
 	background-color: #fff;
 	border-radius: 10px;
@@ -98,7 +106,7 @@ input {
 	overflow: hidden;
 	width: 768px;
 	max-width: 100%;
-	min-height: 480px;
+	min-height: 500px;
 }
 
 .form-container {
@@ -227,7 +235,7 @@ input {
 }
 
 header {
-    background-color: rgb(119, 23, 23);
+    background-color: #FF416C;
     color: #fff;
     font-size: 14px;
     top:0;
