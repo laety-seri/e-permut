@@ -11,11 +11,17 @@
 </head>
 <body>
 
+
+
+
 <div class="container-fluid">
 
 <nav class="navbar navbar-light" style="background-color: grey;">
     <h2>ACCUEIL</h2>
 </nav>
+
+<div class="sidebar">
+</div>
 
 </div><br><br><br><br><br>
 
@@ -28,7 +34,7 @@
 	  		<div class="card-body">
 	  			<div class="card-title text-center">
 			    		<a href="#">
-			    			<img src="images/affectation.png" height="225px" widht="100%">	
+			    			<img src="images/affectation.png" height="190px" widht="100%">	
 							
 			    		</a>
 		    			<div class="desc" style="color: black; font-size: 30px">AFFECTATION</div>
@@ -41,7 +47,7 @@
 	  		<div class="card-body">
 	  			<div class="card-title text-center">
 			    		<a href="#">
-			    			<img src="images/publication.png"  height="225px" widht="100%">	
+			    			<img src="images/publication.png"  height="190px" widht="100%">	
 			    		</a>
 						<div class="desc" style="color: black; font-size: 30px">PUBLICATIONS</div>
 	
@@ -65,7 +71,7 @@
 	  		<div class="card-body">
 	  			<div class="card-title text-center">
 			    		<a href="#">
-			    			<img src="images/parametre.png" height="225px" widht="100%">	
+			    			<img src="images/parametre.png" height="190px" widht="100%">	
 			    		</a>
 						<div class="desc" style="color: black; font-size: 30px">PARAMETRES</div>
 		    
@@ -77,7 +83,7 @@
 	  		<div class="card-body">
 	  			<div class="card-title text-center">
 			    		<a href="#">
-			    			<img src="images/deconnexion.png"  height="225px" widht="100%">	
+			    			<img src="images/deconnexion.png"  height="190px" widht="100%">	
 			    		</a>
 						<div class="desc" style="color: red; font-size: 30px">DECONNEXION</div>
 	
