@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    
+	<link rel="stylesheet" type="text/css" href="stylecss.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Profil</title>
 </head>
 <body>
@@ -17,89 +18,32 @@
 <div class="container-fluid">
 
 <nav class="navbar navbar-light" style="background-color: grey;">
-    <h2>ACCUEIL</h2>
+<center><h2 style="color: white">Bienvenue</h2></center>
 </nav>
 
 <div class="sidebar">
+	<center>
+		<img src="images/avatarl.jpg" alt="Avatar" class="avatar">
+	</center><br>
+	<h2 style="color: black; fontsize: 20;">Nom & Prenoms</h2><br><br><br>
+  <a href=""><i class="fas fa-clipboard-list"></i> Publication</a><br><br>
+  <a href=""><i class="fas fa-exchange-alt"></i> Permutation</a><br><br>
+  <a href=""><i class="fa fa-cogs"></i> Parametre</a><br><br>
+  <a href=""><i class="fa fa-sign-out"></i> Deconnexion</a>
 </div>
 
-</div><br><br><br><br><br>
-
-
-<div class="container">
-		
-	
-  <div class="row">	 
-	 <div class="col">
-	  		<div class="card-body">
-	  			<div class="card-title text-center">
-			    		<a href="#">
-			    			<img src="images/affectation.png" height="190px" widht="100%">	
-							
-			    		</a>
-		    			<div class="desc" style="color: black; font-size: 25px">AFFECTATION</div>
-		
-			</div>
-				</div>
-	</div>
-
-	<div class="row col">
-	  		<div class="card-body">
-	  			<div class="card-title text-center">
-			    		<a href="#">
-			    			<img src="images/publication.png"  height="190px" widht="100%">	
-			    		</a>
-						<div class="desc" style="color: black; font-size: 25px">PUBLICATIONS</div>
-	
-			</div>
-				</div>
-
-	</div>
-
-
-  </div>
-
-</div><br><br><br><br>
-
-
+</div><br><br>
 
 <div class="container">
-		
-	
-  <div class="row">	 
-	 <div class="col">
-	  		<div class="card-body">
-	  			<div class="card-title text-center">
-			    		<a href="#">
-			    			<img src="images/parametre.png" height="190px" widht="100%">	
-			    		</a>
-						<div class="desc" style="color: black; font-size: 25px">PARAMETRES</div>
-		    
-			</div>
-				</div>
-	</div>
-
-	<div class="row col">
-	  		<div class="card-body">
-	  			<div class="card-title text-center">
-			    		<a href="#">
-			    			<img src="images/deconnexion.png"  height="190px" widht="100%">	
-			    		</a>
-						<div class="desc" style="color: red; font-size: 25px">DECONNEXION</div>
-	
-			</div>
-				</div>
-
-	</div>
-
-
-  </div>
-
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+		<div class="col-md-1"></div>
+        <div class="col-md-9">
+				<div style="width: 800px;  padding-top:10px; padding-bottom:10px;border: 1px solid red; text-align: center; border-radius: 40px;"> Vous pouvez écrire votre texte à l'intérieur</div>
+		</div>
+    </div>
 </div>
-<br>
-
-
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

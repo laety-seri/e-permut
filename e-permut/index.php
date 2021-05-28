@@ -33,7 +33,7 @@
 				<button class="ghost" id="signIn">Connexion</button>
 			</div>
 			<div class="overlay-panel overlay-right">
-				<h1>Hello, Friend !</h1>
+				<h1>Bonjour !!!</h1>
 				<p>Entrez vos informations personnelles et affichez vos annonces maintenant</p>
 				<button class="ghost" id="signUp">Inscription</button>
 			</div>
@@ -44,7 +44,6 @@
 <footer>
 	<marquee><p>
 		Joindre l'assistance e-permute en ligne 24h/24h -  
-		<a target="_blank" href="#">Administrateur</a>.
 	</p></marquee>
 </footer>
 
