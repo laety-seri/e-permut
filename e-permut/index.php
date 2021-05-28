@@ -5,13 +5,29 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h2>e-permute</h2>
+<header>
+	<marquee><p>
+		Joindre l'assistance e-permute en ligne 24h/24h -  
+		<a target="_blank" href="#">Administrateur</a>.
+	</p></marquee>
+</header>
+<h1>e-permute</h1>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form action="#">
 			<h1>Inscrivez vous</h1>
-			<input type="text" name="" placeholder="Votre nom " />
+			<input type="text" name="" placeholder="Votre nom" />
+			<input type="text" name="" placeholder="Votre prenoms" />
 			<input type="email" name="" placeholder="Votre email" />
+			<input type="tel" name="" placeholder="Votre n° téléphone" />
+			<input type="text" name="" placeholder="Votre école d'origine" />
+			<span for="" style="background-color:#eee">Votre ville d'origine</span>
+			<select type="text" name="">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<!-- <input type="text" name="" placeholder="Votre ville d'origine"  />-->
 			<input type="password" name="" placeholder="Votre mot de passe" />
 			<button type="submit" name="" >Inscription</button>
 		</form>
@@ -19,9 +35,12 @@
 	<div class="form-container sign-in-container">
 		<form action="#">
 			<h1>Connectez vous</h1>
+			<input type="tel" name="" placeholder="Votre n° téléphone">
+			<!--
 			<input type="email" name="" placeholder="Votre email" />
 			<input type="password" name="" placeholder="Votre mot de passe" />
-			<a href="#">Mot de passe oublier ?</a>
+			-->
+			<a href="#">Numéro oublier ?</a>
 			<button type="submit" name="" >Connexion</button>
 		</form>
 	</div>
@@ -41,12 +60,12 @@
 	</div>
 </div>
 
-<footer>
+<!-- footer>
 	<marquee><p>
 		Joindre l'assistance e-permute en ligne 24h/24h -  
 		<a target="_blank" href="#">Administrateur</a>.
 	</p></marquee>
-</footer>
+</footer -->
 
 <script>
 	const signUpButton = document.getElementById('signUp');

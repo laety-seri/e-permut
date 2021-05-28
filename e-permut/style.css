@@ -226,11 +226,11 @@ input {
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
+header {
+    background-color: rgb(119, 23, 23);
     color: #fff;
     font-size: 14px;
-    bottom: 0;
+    top:0;
     position: fixed;
     left: 0;
     right: 0;
@@ -238,15 +238,11 @@ footer {
     z-index: 999;
 }
 
-footer p {
-    margin: 10px 0;
+header p {
+    margin: 0px 0;
 }
 
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
+header a {
+    color: #82d4f7;
     text-decoration: none;
 }
