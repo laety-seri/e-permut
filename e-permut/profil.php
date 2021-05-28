@@ -37,7 +37,7 @@
 			    			<img src="images/affectation.png" height="190px" widht="100%">	
 							
 			    		</a>
-		    			<div class="desc" style="color: black; font-size: 30px">AFFECTATION</div>
+		    			<div class="desc" style="color: black; font-size: 25px">AFFECTATION</div>
 		
 			</div>
 				</div>
@@ -49,7 +49,7 @@
 			    		<a href="#">
 			    			<img src="images/publication.png"  height="190px" widht="100%">	
 			    		</a>
-						<div class="desc" style="color: black; font-size: 30px">PUBLICATIONS</div>
+						<div class="desc" style="color: black; font-size: 25px">PUBLICATIONS</div>
 	
 			</div>
 				</div>
@@ -73,7 +73,7 @@
 			    		<a href="#">
 			    			<img src="images/parametre.png" height="190px" widht="100%">	
 			    		</a>
-						<div class="desc" style="color: black; font-size: 30px">PARAMETRES</div>
+						<div class="desc" style="color: black; font-size: 25px">PARAMETRES</div>
 		    
 			</div>
 				</div>
@@ -85,7 +85,7 @@
 			    		<a href="#">
 			    			<img src="images/deconnexion.png"  height="190px" widht="100%">	
 			    		</a>
-						<div class="desc" style="color: red; font-size: 30px">DECONNEXION</div>
+						<div class="desc" style="color: red; font-size: 25px">DECONNEXION</div>
 	
 			</div>
 				</div>
