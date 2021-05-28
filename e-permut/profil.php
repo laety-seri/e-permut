@@ -11,11 +11,17 @@
 </head>
 <body>
 
+
+
+
 <div class="container-fluid">
 
 <nav class="navbar navbar-light" style="background-color: grey;">
     <h2>ACCUEIL</h2>
 </nav>
+
+<div class="sidebar">
+</div>
 
 </div><br><br><br><br><br>
 
