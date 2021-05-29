@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>e-permute</title>
+	<title>e-permut</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
 		<a target="_blank" href="#">Administrateur</a>.
 	</p></marquee>
 </header>
-<h1>e-permute</h1>
+<h1>e-permut</h1>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
 		<form action="" method="POST">
@@ -22,7 +22,7 @@
 			<input type="tel" name="tel" placeholder="Votre n° téléphone" />
 			<input type="tel" name="tel_v" placeholder="Confirmez votre n° téléphone" />
 			<select type="text" name="ville" class="ville">
-			<option value=""> Selectionner votre ville d'origine</option>
+			<option> Selectionner votre ville d'origine</option>
 				<?php
 					include('connect.php');
 					$sql = "SELECT * FROM ville";
@@ -88,10 +88,22 @@ if(isset($_POST['inscription'])) {
 	VALUES ('$nom', '$prenom','$mail','$tel','$ecole','$ville') ";
 
 	if (mysqli_query($conn,$insc)){
-		echo 'inscription validée';
+
+		header("location: index.php");
+		echo ' inscription validée ';
 	} else {
 		echo 'quelque chose s"est mal passé';
 	}
+
+
+}
+
+if(isset($_POST['connexion'])) {
+	
+	
+		header("location: profil.php");
+		
+	
 
 
 }

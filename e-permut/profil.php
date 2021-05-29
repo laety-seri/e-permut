@@ -25,11 +25,11 @@
 	<center>
 		<img src="images/avatarl.jpg" alt="Avatar" class="avatar">
 	</center><br>
-	<h2 style="color: black; fontsize: 20;">Nom & Prenoms</h2><br><br><br>
-  <a href=""><i class="fas fa-clipboard-list"></i> Publication</a><br><br>
+	<h2 style="color: black; font-size: 20;">Nom & Prenoms</h2><br><br><br>
+  <a href="publication.php"><i class="fas fa-clipboard-list"></i> Publication</a><br><br>
   <a href=""><i class="fas fa-exchange-alt"></i> Permutation</a><br><br>
   <a href=""><i class="fa fa-cogs"></i> Parametre</a><br><br>
-  <a href=""><i class="fa fa-sign-out"></i> Deconnexion</a>
+  <a href="logout.php"><i class="fa fa-sign-out"></i> Deconnexion</a>
 </div>
 
 </div><br><br>
