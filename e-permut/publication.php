@@ -81,10 +81,40 @@
 
 
 <?php
+include('connect.php');
 
+if(isset($_POST['publier'])) {
+
+	$description = $_POST['description'];
+	$ecole = $_POST['ecole'];
+	$ville = $_POST['ville'];
+    $filiere = $_POST['filiere'];
+
+	$insc = "INSERT INTO utilisateur (description,ecole_souhaitee, ville, filiere_souhaitee, ecole_origine) 
+	VALUES ('$nom', '$prenom','$mail','$tel','$ecole','$ville') ";
+
+	if (mysqli_query($conn,$insc)){
+
+		header("location: index.php");
+		echo ' inscription validée ';
+	} else {
+		echo 'quelque chose s"est mal passé';
+	}
+
+
+}
+
+if(isset($_POST['connexion'])) {
+	
+	
+		header("location: profil.php");
+		
+	
+
+
+}
 
 ?>
-
 
 </body>
 </html>
