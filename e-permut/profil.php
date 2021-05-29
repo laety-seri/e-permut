@@ -21,14 +21,21 @@
 <center><h2 style="color: white">Bienvenue</h2></center>
 </nav>
 
-<div class="sidebar">
+<div class="sidebar"> 
 	<center>
 		<img src="images/avatarl.jpg" alt="Avatar" class="avatar">
 	</center><br>
+<<<<<<< HEAD
 	<h2 style="color: black; fontsize: 18;">Nom & Prenoms</h2><br><br><br>
   <a href=""><i class="fas fa-clipboard-list"></i> Publication</a><br><br>
   <a href="publication.php"><i class="fas fa-exchange-alt"></i> Permutation</a><br><br>
   <a href="#"><i class="fa fa-cogs"></i> Parametre</a><br><br>
+=======
+	<h2 style="color: black; font-size: 20;">Nom & Prenoms</h2><br><br><br>
+  <a href="publication.php"><i class="fas fa-clipboard-list"></i> Publication</a><br><br>
+  <a href=""><i class="fas fa-exchange-alt"></i> Permutation</a><br><br>
+  <a href=""><i class="fa fa-cogs"></i> Parametre</a><br><br>
+>>>>>>> f0800c431d9cf9b75551522633a65e93bbebe115
   <a href="logout.php"><i class="fa fa-sign-out"></i> Deconnexion</a>
 </div>
 
